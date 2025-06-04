@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    
+}
+nav{
+    height: 8rem;
+    width: 100;
+    justify-content: end;
+    display: flex;
+    align-items: end;
+}
+button {
+    border: none;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background: rgb(2, 223, 223);
+    color: white;
+    font-weight: bold;
+    font-size: 200%;
+    padding: 3rem 1.5rem 1rem;
+}
+button:hover{
+    padding-block-start: 4rem;
+}
+.background-green {
+    background: rgb(1, 239, 1);
+}
+.background-coral {
+    background: coral;
+}
